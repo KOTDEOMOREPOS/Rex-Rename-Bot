@@ -100,14 +100,14 @@ async def start_me(bot, update):
             [
                 [
                         InlineKeyboardButton("🤔Help", callback_data = "ghelp"),
-                        InlineKeyboardButton('Other Bots🤖', url='https://t.me/Mo_Tech_YT/141')
+                        InlineKeyboardButton('Other Bots🤖', url='https://t.me/KOT_BOTS')
                 ],
                 [
-                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/Mo_Tech_Group'),
-                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/Mo_Tech_YT')
+                    InlineKeyboardButton('🗣️ Any Doubt', url='https://t.me/KOT_REPORS'),
+                    InlineKeyboardButton('Bot Updates 🤖', url='https://t.me/KOT_BOTS')
                 ],
                 [
-                    InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/wCB2zbwEguA')
+                    InlineKeyboardButton('🔱SOURCE CODE', url='https://t.me/KOT_SOURCE_CODE')
                 ]
             ]
         ),
@@ -181,8 +181,8 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('👨‍🎓Credits', url="https://t.me/Mai_bOTs"),
-                    InlineKeyboardButton('Editing 👨‍💻', url="https://t.me/Mo_Tech_Group")
+                    InlineKeyboardButton('👨‍🎓Credits', url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF"),
+                    InlineKeyboardButton('Editing 👨‍💻', url="https://t.me/KOT_BOTS")
                 ],
                 [
                     InlineKeyboardButton('🔙 Back', callback_data = "ghelp"),
